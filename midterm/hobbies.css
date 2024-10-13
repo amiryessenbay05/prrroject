@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hobby {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s ease;
+    
+}
+
+.hobby:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px 1px  #333;
+        
+}
+
+h2 {
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.container .judo {
+    margin-right: 8rem;
+    width: 400px;
+    height: 468px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.container .legend {
+    margin-right: 8rem;
+    width: 200px;
+    height: 234px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.container .leet {
+    margin-right: 8rem;
+    width: 400px;
+    height: 468px;
+    object-fit: cover;
+    border-radius: 10%;
+}

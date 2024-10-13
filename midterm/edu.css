@@ -1,0 +1,45 @@
+*{
+    font-family: "Inter", sans-serif;;
+}
+
+.photo img {
+    width: 70%;
+    height: 150vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+
+.sabaq{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    margin: 80px;
+    margin-top: 120px;
+    
+}
+.study {
+    border: 3px solid #FFC1C1;
+    border-radius: 15px;
+    width: 650px;
+    height: 120px;
+    background: linear-gradient(to right, #ffcccc, #ffe6e6);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.study:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px #C3E4D9;
+}
+.study a {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+}
+.study a:hover {
+    color: #ff5c5c;
+}
